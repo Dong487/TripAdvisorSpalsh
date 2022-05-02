@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F555C2B327731AF5006B6507 /* TripAdvisorSpalshApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F555C2B227731AF5006B6507 /* TripAdvisorSpalshApp.swift */; };
+		F555C2B527731AF5006B6507 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F555C2B427731AF5006B6507 /* ContentView.swift */; };
+		F555C2B727731AF7006B6507 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F555C2B627731AF7006B6507 /* Assets.xcassets */; };
+		F555C2BA27731AF7006B6507 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F555C2B927731AF7006B6507 /* Preview Assets.xcassets */; };
+		F555C2C427731AF8006B6507 /* TripAdvisorSpalshTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F555C2C327731AF8006B6507 /* TripAdvisorSpalshTests.swift */; };
+		F555C2CE27731AF8006B6507 /* TripAdvisorSpalshUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F555C2CD27731AF8006B6507 /* TripAdvisorSpalshUITests.swift */; };
+		F555C2D027731AF8006B6507 /* TripAdvisorSpalshUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F555C2CF27731AF8006B6507 /* TripAdvisorSpalshUITestsLaunchTests.swift */; };
+		F555C2DE27731B35006B6507 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F555C2DD27731B35006B6507 /* SplashScreen.swift */; };
+		F555C2E02773B742006B6507 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = F555C2DF2773B742006B6507 /* Home.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F555C2C027731AF8006B6507 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F555C2A727731AF5006B6507 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F555C2AE27731AF5006B6507;
+			remoteInfo = TripAdvisorSpalsh;
+		};
+		F555C2CA27731AF8006B6507 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F555C2A727731AF5006B6507 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F555C2AE27731AF5006B6507;
+			remoteInfo = TripAdvisorSpalsh;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F555C2AF27731AF5006B6507 /* TripAdvisorSpalsh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TripAdvisorSpalsh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F555C2B227731AF5006B6507 /* TripAdvisorSpalshApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripAdvisorSpalshApp.swift; sourceTree = "<group>"; };
+		F555C2B427731AF5006B6507 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F555C2B627731AF7006B6507 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F555C2B927731AF7006B6507 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F555C2BF27731AF8006B6507 /* TripAdvisorSpalshTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripAdvisorSpalshTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F555C2C327731AF8006B6507 /* TripAdvisorSpalshTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripAdvisorSpalshTests.swift; sourceTree = "<group>"; };
+		F555C2C927731AF8006B6507 /* TripAdvisorSpalshUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripAdvisorSpalshUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F555C2CD27731AF8006B6507 /* TripAdvisorSpalshUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripAdvisorSpalshUITests.swift; sourceTree = "<group>"; };
+		F555C2CF27731AF8006B6507 /* TripAdvisorSpalshUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripAdvisorSpalshUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F555C2DD27731B35006B6507 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		F555C2DF2773B742006B6507 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F555C2AC27731AF5006B6507 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F555C2BC27731AF8006B6507 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F555C2C627731AF8006B6507 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F555C2A627731AF5006B6507 = {
+			isa = PBXGroup;
+			children = (
+				F555C2B127731AF5006B6507 /* TripAdvisorSpalsh */,
+				F555C2C227731AF8006B6507 /* TripAdvisorSpalshTests */,
+				F555C2CC27731AF8006B6507 /* TripAdvisorSpalshUITests */,
+				F555C2B027731AF5006B6507 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F555C2B027731AF5006B6507 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F555C2AF27731AF5006B6507 /* TripAdvisorSpalsh.app */,
+				F555C2BF27731AF8006B6507 /* TripAdvisorSpalshTests.xctest */,
+				F555C2C927731AF8006B6507 /* TripAdvisorSpalshUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F555C2B127731AF5006B6507 /* TripAdvisorSpalsh */ = {
+			isa = PBXGroup;
+			children = (
+				F555C2DC27731B1E006B6507 /* View */,
+				F555C2B227731AF5006B6507 /* TripAdvisorSpalshApp.swift */,
+				F555C2B427731AF5006B6507 /* ContentView.swift */,
+				F555C2B627731AF7006B6507 /* Assets.xcassets */,
+				F555C2B827731AF7006B6507 /* Preview Content */,
+			);
+			path = TripAdvisorSpalsh;
+			sourceTree = "<group>";
+		};
+		F555C2B827731AF7006B6507 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F555C2B927731AF7006B6507 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F555C2C227731AF8006B6507 /* TripAdvisorSpalshTests */ = {
+			isa = PBXGroup;
+			children = (
+				F555C2C327731AF8006B6507 /* TripAdvisorSpalshTests.swift */,
+			);
+			path = TripAdvisorSpalshTests;
+			sourceTree = "<group>";
+		};
+		F555C2CC27731AF8006B6507 /* TripAdvisorSpalshUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F555C2CD27731AF8006B6507 /* TripAdvisorSpalshUITests.swift */,
+				F555C2CF27731AF8006B6507 /* TripAdvisorSpalshUITestsLaunchTests.swift */,
+			);
+			path = TripAdvisorSpalshUITests;
+			sourceTree = "<group>";
+		};
+		F555C2DC27731B1E006B6507 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F555C2DD27731B35006B6507 /* SplashScreen.swift */,
+				F555C2DF2773B742006B6507 /* Home.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F555C2AE27731AF5006B6507 /* TripAdvisorSpalsh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F555C2D327731AF8006B6507 /* Build configuration list for PBXNativeTarget "TripAdvisorSpalsh" */;
+			buildPhases = (
+				F555C2AB27731AF5006B6507 /* Sources */,
+				F555C2AC27731AF5006B6507 /* Frameworks */,
+				F555C2AD27731AF5006B6507 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TripAdvisorSpalsh;
+			productName = TripAdvisorSpalsh;
+			productReference = F555C2AF27731AF5006B6507 /* TripAdvisorSpalsh.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F555C2BE27731AF8006B6507 /* TripAdvisorSpalshTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F555C2D627731AF8006B6507 /* Build configuration list for PBXNativeTarget "TripAdvisorSpalshTests" */;
+			buildPhases = (
+				F555C2BB27731AF8006B6507 /* Sources */,
+				F555C2BC27731AF8006B6507 /* Frameworks */,
+				F555C2BD27731AF8006B6507 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F555C2C127731AF8006B6507 /* PBXTargetDependency */,
+			);
+			name = TripAdvisorSpalshTests;
+			productName = TripAdvisorSpalshTests;
+			productReference = F555C2BF27731AF8006B6507 /* TripAdvisorSpalshTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F555C2C827731AF8006B6507 /* TripAdvisorSpalshUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F555C2D927731AF8006B6507 /* Build configuration list for PBXNativeTarget "TripAdvisorSpalshUITests" */;
+			buildPhases = (
+				F555C2C527731AF8006B6507 /* Sources */,
+				F555C2C627731AF8006B6507 /* Frameworks */,
+				F555C2C727731AF8006B6507 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F555C2CB27731AF8006B6507 /* PBXTargetDependency */,
+			);
+			name = TripAdvisorSpalshUITests;
+			productName = TripAdvisorSpalshUITests;
+			productReference = F555C2C927731AF8006B6507 /* TripAdvisorSpalshUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F555C2A727731AF5006B6507 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					F555C2AE27731AF5006B6507 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					F555C2BE27731AF8006B6507 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = F555C2AE27731AF5006B6507;
+					};
+					F555C2C827731AF8006B6507 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = F555C2AE27731AF5006B6507;
+					};
+				};
+			};
+			buildConfigurationList = F555C2AA27731AF5006B6507 /* Build configuration list for PBXProject "TripAdvisorSpalsh" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F555C2A627731AF5006B6507;
+			productRefGroup = F555C2B027731AF5006B6507 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F555C2AE27731AF5006B6507 /* TripAdvisorSpalsh */,
+				F555C2BE27731AF8006B6507 /* TripAdvisorSpalshTests */,
+				F555C2C827731AF8006B6507 /* TripAdvisorSpalshUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F555C2AD27731AF5006B6507 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F555C2BA27731AF7006B6507 /* Preview Assets.xcassets in Resources */,
+				F555C2B727731AF7006B6507 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F555C2BD27731AF8006B6507 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F555C2C727731AF8006B6507 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F555C2AB27731AF5006B6507 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F555C2DE27731B35006B6507 /* SplashScreen.swift in Sources */,
+				F555C2B527731AF5006B6507 /* ContentView.swift in Sources */,
+				F555C2E02773B742006B6507 /* Home.swift in Sources */,
+				F555C2B327731AF5006B6507 /* TripAdvisorSpalshApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F555C2BB27731AF8006B6507 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F555C2C427731AF8006B6507 /* TripAdvisorSpalshTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F555C2C527731AF8006B6507 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F555C2CE27731AF8006B6507 /* TripAdvisorSpalshUITests.swift in Sources */,
+				F555C2D027731AF8006B6507 /* TripAdvisorSpalshUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F555C2C127731AF8006B6507 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F555C2AE27731AF5006B6507 /* TripAdvisorSpalsh */;
+			targetProxy = F555C2C027731AF8006B6507 /* PBXContainerItemProxy */;
+		};
+		F555C2CB27731AF8006B6507 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F555C2AE27731AF5006B6507 /* TripAdvisorSpalsh */;
+			targetProxy = F555C2CA27731AF8006B6507 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F555C2D127731AF8006B6507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F555C2D227731AF8006B6507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F555C2D427731AF8006B6507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TripAdvisorSpalsh/Preview Content\"";
+				DEVELOPMENT_TEAM = 942H6V444Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ddong.TripAdvisorSpalsh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F555C2D527731AF8006B6507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TripAdvisorSpalsh/Preview Content\"";
+				DEVELOPMENT_TEAM = 942H6V444Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ddong.TripAdvisorSpalsh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F555C2D727731AF8006B6507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 942H6V444Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ddong.TripAdvisorSpalshTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TripAdvisorSpalsh.app/TripAdvisorSpalsh";
+			};
+			name = Debug;
+		};
+		F555C2D827731AF8006B6507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 942H6V444Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ddong.TripAdvisorSpalshTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TripAdvisorSpalsh.app/TripAdvisorSpalsh";
+			};
+			name = Release;
+		};
+		F555C2DA27731AF8006B6507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 942H6V444Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ddong.TripAdvisorSpalshUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TripAdvisorSpalsh;
+			};
+			name = Debug;
+		};
+		F555C2DB27731AF8006B6507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 942H6V444Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ddong.TripAdvisorSpalshUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TripAdvisorSpalsh;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F555C2AA27731AF5006B6507 /* Build configuration list for PBXProject "TripAdvisorSpalsh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F555C2D127731AF8006B6507 /* Debug */,
+				F555C2D227731AF8006B6507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F555C2D327731AF8006B6507 /* Build configuration list for PBXNativeTarget "TripAdvisorSpalsh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F555C2D427731AF8006B6507 /* Debug */,
+				F555C2D527731AF8006B6507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F555C2D627731AF8006B6507 /* Build configuration list for PBXNativeTarget "TripAdvisorSpalshTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F555C2D727731AF8006B6507 /* Debug */,
+				F555C2D827731AF8006B6507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F555C2D927731AF8006B6507 /* Build configuration list for PBXNativeTarget "TripAdvisorSpalshUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F555C2DA27731AF8006B6507 /* Debug */,
+				F555C2DB27731AF8006B6507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F555C2A727731AF5006B6507 /* Project object */;
+}
